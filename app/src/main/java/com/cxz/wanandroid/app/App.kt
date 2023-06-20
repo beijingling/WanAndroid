@@ -143,7 +143,7 @@ class App : Application() {
         super.attachBaseContext(base)
         MultiDex.install(base)
         // 安装 Tinker
-        Beta.installTinker()
+//        Beta.installTinker()
     }
 
     /**
